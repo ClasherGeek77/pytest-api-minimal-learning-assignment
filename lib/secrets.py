@@ -1,4 +1,4 @@
 class secrets_login(object):
     def __init__(self):
-        self.email = "rufina@julofinance.com"
-        self.password = "123321"
+        self.email = "eve.holt@reqres.in"
+        self.password = "cityslicka"

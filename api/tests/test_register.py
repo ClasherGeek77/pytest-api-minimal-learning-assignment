@@ -1,13 +1,12 @@
 import logging
 import requests
-import json
 
-def test_login_success_reqres(secrets_login):
+def test_register_success_reqres(register_users):
 
-    url = "https://reqres.in/api/login"
+    url = "https://reqres.in/api/register"
     payload = {
-        "email": secrets_login.email,
-        "password": secrets_login.password
+        "email": register_users.email,
+        "password": register_users.password
     }
     headers = {
         "Content-Type": "application/json"

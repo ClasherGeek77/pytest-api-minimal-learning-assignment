@@ -1,0 +1,6 @@
+api/pytest.ini
+reports/test_results.xml
+api/.pytest_cache
+api/__pycache__
+lib/__pycache__
+.pytest_cache
